@@ -1,17 +1,14 @@
 {
   "files": {
-    "main.css": "/chatify/static/css/main.a9bc83cc.css",
-    "main.js": "/chatify/static/js/main.18199f35.js",
-    "static/js/453.966193bc.chunk.js": "/chatify/static/js/453.966193bc.chunk.js",
+    "main.css": "/chatify/static/css/main.325f25bd.css",
+    "main.js": "/chatify/static/js/main.e37027bd.js",
+    "static/js/206.6ec5acd1.chunk.js": "/chatify/static/js/206.6ec5acd1.chunk.js",
     "static/media/pic.png": "/chatify/static/media/pic.097db612529c242673c4.png",
     "static/media/g.png.webp": "/chatify/static/media/g.png.b9b077cec847c4f368b8.webp",
-    "index.html": "/chatify/index.html",
-    "main.a9bc83cc.css.map": "/chatify/static/css/main.a9bc83cc.css.map",
-    "main.18199f35.js.map": "/chatify/static/js/main.18199f35.js.map",
-    "453.966193bc.chunk.js.map": "/chatify/static/js/453.966193bc.chunk.js.map"
+    "index.html": "/chatify/index.html"
   },
   "entrypoints": [
-    "static/css/main.a9bc83cc.css",
-    "static/js/main.18199f35.js"
+    "static/css/main.325f25bd.css",
+    "static/js/main.e37027bd.js"
   ]
 }
