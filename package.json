@@ -2,12 +2,14 @@
   "name": "chatify",
   "version": "0.1.0",
   "private": true,
+"homepage": "https://mohamedelneny99.github.io/chatify",
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.1",
     "bootstrap": "^5.3.5",
     "formik": "^2.4.6",
+    "gh-pages": "^6.3.0",
     "http-proxy-middleware": "^3.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -17,9 +19,20 @@
     "web-vitals": "^2.1.4",
     "yup": "^1.6.1"
   },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-icons": "^2.2.7",
+    "shx": "^0.4.0",
+    "typescript": "^4.9.5",
+    "cross-env": "^7.0.3"
+  },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "cross-env PUBLIC_URL=. GENERATE_SOURCEMAP=false react-scripts build",
+    "postbuild": "shx cp build/index.html build/404.html",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,13 +53,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.55",
-    "@types/react-dom": "^18.2.19",
-    "@types/react-icons": "^2.2.7",
-    "typescript": "^4.9.5"
-  },
-    "proxy": "https://chat-app-two-silk-82.vercel.app"
-
+  }
 }
